@@ -1,0 +1,12 @@
+name: HCloudPlugin
+version: '1.0'
+main: com.hetzner.hackathon.HCloudPlugin
+api-version: '26.1'
+commands:
+  hcloud:
+    description: Hetzner Cloud management command
+    usage: /hcloud [token <token>]
+permissions:
+  hcloud.use:
+    description: Allows use of /hcloud
+    default: op

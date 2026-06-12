@@ -1,0 +1,3 @@
+# Hetzner Cloud API Token
+# Use /hcloud token <token> to set this in-game
+api_token: ""
